@@ -109,9 +109,33 @@
 //   console.log({country} does not have less people than the average country);
 // }
 
-for (let i = 0; i <= 100; i++);{
+// for (let i = 0; i <= 100; i++);{
   
-console.log(i);}
+// console.log(i);}
+
+
+// for (let i = 0; i <= 100; i++); {
+// console.log(i);
+// }
+
+// for (let j = 0; j <=10; j++){
+//     console.log(j)
+// }
+// let arr = ["cat", "dog", "fox", "car"];
+// console.log(arr)
+
+// let arr = ["cat", "dog", "fox", "car"];
+// for (let j = 0; j < arr.length; j++) {
+//     console.log(arr[j]);
+
+// }
+
+for (let b = 0; b <= 9000; b++) {
+    for (let j = 0; j <= 10; j++) {
+        console.log(` ${b} x ${j} = ${b*j}`);
+    }
+}
+
 
 
 
