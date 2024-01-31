@@ -109,8 +109,9 @@
 //   console.log({country} does not have less people than the average country);
 // }
 
-for (let i = 0; i <= 100; i
-console.log(i)
+for (let i = 0; i <= 100; i++);{
+  
+console.log(i);}
 
 
 
