@@ -68,12 +68,72 @@
 // Grade.pop()
 // console.log(Grade)
 // console.log(Grade.pop())
-let grade=["a", "b", "c", "d", "e", "f"]
-console.log(grade);
-grade.unshift("b","1")
-console.log(grade)
-grade.shift()
-console.log(grade)
+// let grade=["a", "b", "c", "d", "e", "f"]
+// console.log(grade);
+// grade.unshift("b","1")
+// console.log(grade)
+// grade.shift()
+// console.log(grade)
+
+const country = 'Pakistan';
+const continent = 'Asia';
+const population = 230000000; // In millions
+console.log(Country);
+console.log(Continent);
+console.log(Population);
+
+const country = 'United States';
+const continent = 'North America';
+const population = 331002652; 
+const isIsland = false;
+let language;
+console.log(Country);
+console.log(Continent);
+console.log(Population);
+console.log(Is Island);
+console.log(Language);
+
+const country = 'United States';
+const continent = 'North America';
+const population = 331002652; // In millions
+const isIsland = false;
+let language;
+
+// Assign the primary language of your country
+language = 'English';
+
+// Check if your country has less people than the average country
+if (population < 33) {
+  console.log({country} has less people than the average country);
+} else {
+  console.log({country} does not have less people than the average country);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
