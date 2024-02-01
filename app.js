@@ -130,10 +130,31 @@
 
 // }
 
-for (let b = 0; b <= 9000; b++) {
-    for (let j = 0; j <= 10; j++) {
-        console.log(` ${b} x ${j} = ${b*j}`);
-    }
+// for (let b = 0; b <= 9000; b++) {
+//     for (let j = 0; j <= 10; j++) {
+//         console.log(` ${b} x ${j} = ${b*j}`);
+//     }
+// }
+
+for (let i = 1; i <= 1000; i++) {
+  console.log(i);
+}
+
+
+for (let i = 1000; i >= 0; i--) {
+  console.log(i);
+}
+
+
+for (let i = 1; i <= 5; i++) {
+ let table = [];
+  for (let j = 1; j <= 10; j++) {
+   table.push(i * j);
+ }
+ table.sort(function(a, b) {
+    return a - b;
+  });
+  console.log(table.join(" "));
 }
 
 
