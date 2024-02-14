@@ -136,30 +136,44 @@
 //     }
 // }
 
-for (let i = 1; i <= 1000; i++) {
-  console.log(i);
-}
+// for (let i = 1; i <= 1000; i++) {
+//   console.log(i);
+// }
 
 
-for (let i = 1000; i >= 0; i--) {
-  console.log(i);
-}
+// for (let i = 1000; i >= 0; i--) {
+//   console.log(i);
+// }
 
 
-for (let i = 1; i <= 5; i++) {
- let table = [];
-  for (let j = 1; j <= 10; j++) {
-   table.push(i * j);
- }
- table.sort(function(a, b) {
-    return a - b;
-  });
-  console.log(table.join(" "));
-}
+// for (let i = 1; i <= 5; i++) {
+//  let table = [];
+//   for (let j = 1; j <= 10; j++) {
+//    table.push(i * j);
+//  }
+//  table.sort(function(a, b) {
+//     return a - b;
+//   });
+//   console.log(table.join(" "));
+// }
 
+// let rightNow = new Date ();
+// let theDay = rightNow.getDay();
+// console.log(theDay);
 
+// let rightNow = new Date ();
+// let theMonth = rightNow.getMonth();
+// console.log(theMonth);
 
+// let rightNow = new Date ();
+// let theYear = rightNow.getFullYear();
+// console.log(theYear);
 
+// let rightNow = new Date();
+// console.log(rightNow);
+
+// let doomsday = new Date ("June 30, 2035");
+// console.log(doomsday);
 
 
 
